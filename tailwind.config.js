@@ -37,6 +37,9 @@ module.exports = {
         norwester: ["Norwester", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
+      boxShadow: {
+        "cate_cafe": "0px 22px 0px 0px #09384E",
+      },
       fontSize: {
         sm: "14px",
         md: "16px",
@@ -66,6 +69,9 @@ module.exports = {
         "20xl": "70px",
         "21xl": "72px",
         "22xl": "74px",
+      },
+      backgroundColor: {
+        bodybg: "#FCFBE3",
       },
     },
   },
