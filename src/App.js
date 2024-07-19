@@ -1,4 +1,5 @@
-import Cafe_Gato from "./components/Cafe_Gato";
+import About from "./components/About";
+import CafeGato from "./components/CafeGato";
 import CatCafe from "./components/CatCafe";
 import Header from "./components/Header";
 import OurMission from "./components/OurMission";
@@ -7,9 +8,10 @@ function App() {
   return (
     <>
       <Header />
-      <Cafe_Gato />
+      <CafeGato />
       <OurMission />
       <CatCafe />
+      <About />
     </>
   );
 }
