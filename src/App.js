@@ -1,5 +1,4 @@
 import About from "./components/About";
-import Accordian from "./components/Accordian";
 import Benifit from "./components/Benifit";
 import CafeGato from "./components/CafeGato";
 import CatCafe from "./components/CatCafe";
