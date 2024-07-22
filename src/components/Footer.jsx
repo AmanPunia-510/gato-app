@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <>
             <section className='mt-20 sm:mt-24 md:mt-[126px] lg:mt-[150px] xl:mt-[227px] bg-primary max-w-[1531px] mx-auto'>
-                <div className="container pt-12">
+                <div className="container pt-12 xxl:max-w-[1440px]">
                     <img src={logo} className='mx-auto max-w-[155px]' alt="logo" />
                     <div className='max-w-[493px] mx-auto flex items-center gap-4 sm:gap-9 justify-center pt-11 flex-wrap'>
                         <img src={insta} className='w-[38px] h-[38px]' alt="instagram" />

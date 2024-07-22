@@ -9,7 +9,7 @@ const OurMission = () => {
     return (
         <>
             <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[223px] max-w-[1531px] mx-auto relative'>
-                <div className='max-w-[1115px] xxl:max-w-[1280px] w-full mx-auto px-6 relative z-20'>
+                <div className='max-w-[1115px] xxl:max-w-[1440px] w-full mx-auto px-6 relative z-20'>
                     <div className='flex flex-wrap flex-row mx-auto w-full lg:items-end items-center max-lg:gap-14 max-lg:flex-col-reverse max-sm:gap-7'>
                         <div className="w-full lg:w-5/12 px-[9px] max-lg:flex max-lg:justify-center">
                             <img src={Mission_Img} className='w-full max-lg:hidden' alt="Mission_Img" />

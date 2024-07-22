@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Accordian from "./components/Accordian";
 import Benifit from "./components/Benifit";
 import CafeGato from "./components/CafeGato";
 import CatCafe from "./components/CatCafe";
@@ -14,11 +15,12 @@ function App() {
   return (
     <>
       <Header />
-      <main className="overflow-hidden">
+      <main className="overflow-hidden bg-[#FCFBE3]">
         <CafeGato />
         <OurMission />
         <CatCafe />
         <About />
+        <Accordian />
         <Everyone />
         <Benifit />
         <Expect />

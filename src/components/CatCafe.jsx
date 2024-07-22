@@ -7,7 +7,7 @@ const CatCafe = () => {
     return (
         <>
             <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px] w-full max-w-[1531px] mx-auto relative'>
-                <div className="container xxl:max-w-[1280px]">
+                <div className="container xxl:max-w-[1440px]">
                     <h2 className='font-norwester font-normal text-6xl sm:text-12xl leading-130 text-primary text-center pb-4 lg:pb-14'>What is a <span className='text-secondry'> Cat Cafe?</span></h2>
 
                     <div className='p-3 sm:p-6 border-[4px] border-solid border-primary rounded-xl shadow-cate_cafe'>

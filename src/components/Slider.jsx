@@ -45,7 +45,7 @@ export default function SimpleSlider() {
     };
     return (
         <section className="pt-20 sm:pt-24 md:pt-[126px] max-w-[1531px] mx-auto lg:pt-[150px] xl:pt-[227px] relative">
-            <div className="container relative">
+            <div className="container relative xxl:max-w-[1440px]">
                 <h2 className='font-norwester font-normal text-6xl sm:text-12xl leading-130 text-primary text-center pb-4 lg:pb-16'>Addressing Common Concerns</h2>
                 <div className="max-w-[919px] w-full mx-auto">
                     <Slider {...settings} className="h-fit">

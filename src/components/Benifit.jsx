@@ -8,7 +8,7 @@ const Benifit = () => {
     return (
         <>
             <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[190px] max-w-[1531px] mx-auto relative'>
-                <div className='max-w-[1103px] mx-auto px-6 relative z-10'>
+                <div className='max-w-[1103px] mx-auto px-6 relative z-10 xxl:max-w-[1440px]'>
                     <h2 className='font-norwester font-normal text-6xl sm:text-12xl leading-130 text-primary text-center pb-4 lg:pb-20'>BENEFITS</h2>
                     <div className="flex flex-wrap flex-row mx-auto w-full items-center max-xl:gap-7">
                         <div className="w-full xl:w-5/12 xl:pr-3 max-xl:flex max-xl:justify-center">
