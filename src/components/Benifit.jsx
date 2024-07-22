@@ -7,7 +7,7 @@ import Ellips from '../assets/images/png/MissionRightEllips.png'
 const Benifit = () => {
     return (
         <>
-            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[190px] max-w-[1531px] mx-auto relative'>
+            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[190px] max-w-[1531px] mx-auto relative'>
                 <div className='max-w-[1103px] mx-auto px-6 relative z-10'>
                     <h2 className='font-norwester font-normal text-6xl sm:text-12xl leading-130 text-primary text-center pb-4 lg:pb-20'>BENEFITS</h2>
                     <div className="flex flex-wrap flex-row mx-auto w-full items-center max-xl:gap-7">
@@ -16,14 +16,14 @@ const Benifit = () => {
                         </div>
                         <div className="w-full xl:w-7/12 xl:pl-3">
                             <h2 className='font-norwester font-normal leading-130 text-6xl text-primary max-xl:text-center'>FOR THE CATS</h2>
-                            <p className='font-inter font-normal text-primary text-md leading-160 pt-2 xl:pt-5 xl:max-w-[590px] max-xl:text-center'>Partnering with our local animal shelter, we offer a larger, cage-free environment for our cats to socialize and build confidence around people and other cats. This environment helps improve their overall well-being and increases their chances of finding their forever home.</p>
+                            <p className='font-inter font-normal text-primary text-md leading-160 pt-2 xl:pt-5 xl:max-w-[590px] max-xl:text-center max-xl:max-w-[713px] max-xl:mx-auto'>Partnering with our local animal shelter, we offer a larger, cage-free environment for our cats to socialize and build confidence around people and other cats. This environment helps improve their overall well-being and increases their chances of finding their forever home.</p>
                         </div>
                     </div>
 
                     <div className="flex flex-wrap flex-row mx-auto w-full items-center max-xl:gap-7 mt-8 xl:mt-20 max-xl:flex-col-reverse">
                         <div className="w-full xl:w-7/12 xl:pr-3">
                             <h2 className='font-norwester font-normal leading-130 text-6xl text-primary max-xl:text-center'>FOR CAT AND COFFEE LOVERS</h2>
-                            <p className='font-inter font-normal text-primary text-md leading-160 pt-2 xl:pt-5 xl:max-w-[590px] max-xl:text-center'>Spending time with cats has been shown to reduce stress and anxiety, improve mood, and offer a unique and enjoyable experience. Whether you're a student, a working professional, or a family, our café offers a little slice of happiness and relaxation for all!</p>
+                            <p className='font-inter font-normal text-primary text-md leading-160 pt-2 xl:pt-5 xl:max-w-[590px] max-xl:text-center max-xl:max-w-[713px] max-xl:mx-auto'>Spending time with cats has been shown to reduce stress and anxiety, improve mood, and offer a unique and enjoyable experience. Whether you're a student, a working professional, or a family, our café offers a little slice of happiness and relaxation for all!</p>
                         </div>
 
                         <div className="w-full xl:w-5/12 xl:pl-3 flex max-xl:justify-center xl:justify-end">

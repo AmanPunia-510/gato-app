@@ -12,14 +12,14 @@ import ellips from '../assets/images/png/Cafe_gato_ellips.png'
 const CafeGato = () => {
     return (
         <>
-            <section className='pt-20 sm:pt-24 md:pt-[135px] lg:pt-[257px] relative  max-w-[1531px] mx-auto'>
+            <section className='pt-20 sm:pt-24 md:pt-[135px] lg:pt-[167px] xl:pt-[257px] relative  max-w-[1531px] mx-auto'>
                 <div className="container xxl:max-w-[1280px] relative z-10">
                     <div className='flex justify-center'>
                         <img src={Cafe_Gato_img} className='max-w-[289px] max-sm:max-w-[197px]' alt="cafe_gato_img" />
                     </div>
                     <div>
                         <p className='font-inter font-normal text-md leading-170 text-primary text-center max-w-[756px] mx-auto pt-4 sm:pt-5 pb-8 '>Cat Cafe in Spanish, Cafe Gato is more than just a cafe; it's a sanctuary for both humans and cats. By combining great coffee, a cozy atmosphere, and the joy of feline companionship, we create a unique and fulfilling experience for everyone who walks through our doors. </p>
-                        <div className='flex justify-end pb-7 pr-[77px] relative max-md:hidden'>
+                        <div className='flex justify-end pb-7 pr-[77px] relative max-lg:hidden'>
                             <img src={Cat_foot} className='w-[26px]' alt="Cat_foot" />
                             <img src={Cat_foot} className='w-[26px] absolute top-[-337%] left-[131px]' alt="Cat_foot" />
                         </div>
@@ -50,7 +50,7 @@ const CafeGato = () => {
                         </div>
                     </div>
                 </div>
-                <img src={ellips} className='max-w-[192px] absolute top-[44px] left-0 -z-0 max-sm:hidden' alt="ellips" />
+                <img src={ellips} className='max-w-[192px] absolute top-[44px] left-0 -z-0 max-lg:hidden' alt="ellips" />
             </section>
         </>
     )
