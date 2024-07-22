@@ -1,8 +1,8 @@
 import React from 'react'
-import BenifitBg from '../assets/images/png/BenifitBg.png'
-import Benifit1Bg from '../assets/images/png/Benifit1Bg.png'
-import RightBg from '../assets/images/png/Our_mission_right.png'
-import Ellips from '../assets/images/png/MissionRightEllips.png'
+import BenifitBg from '../assets/images/webp/BenifitBg.webp'
+import Benifit1Bg from '../assets/images/webp/Benifit1Bg.webp'
+import RightBg from '../assets/images/webp/Our_mission_right.webp'
+import Ellips from '../assets/images/webp/MissionRightEllips.webp'
 
 const Benifit = () => {
     return (

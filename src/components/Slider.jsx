@@ -2,12 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Cleaness from '../assets/images/png/Cleaness.png'
-import Cross from '../assets/images/png/Cross.png'
-import Safety from '../assets/images/png/Safety.png'
-import Prev_Arrow from '../assets/images/png/prev_arrow.png'
-import Next_Arrow from '../assets/images/png/next_arrow.png'
-import Thankyou from '../assets/images/png/ThankyouBg.png'
+import Cleaness from '../assets/images/webp/Cleaness.webp'
+import Cross from '../assets/images/webp/Cross.webp'
+import Safety from '../assets/images/webp/Safety.webp'
+import Prev_Arrow from '../assets/images/webp/prev_arrow.webp'
+import Next_Arrow from '../assets/images/webp/next_arrow.webp'
+import Thankyou from '../assets/images/webp/ThankyouBg.webp'
 
 export default function SimpleSlider() {
 

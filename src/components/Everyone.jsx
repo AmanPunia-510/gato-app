@@ -1,9 +1,9 @@
 import React from 'react'
-import PeopleLooking from '../assets/images/png/PeopleLooking.png'
-import CatLovers from '../assets/images/png/CatLovers.png'
-import Faimly from '../assets/images/png/Faimly.png'
-import CollegeStudents from '../assets/images/png/CollegeStudents.png'
-import Ellips from '../assets/images/png/Mission_ellips.png'
+import PeopleLooking from '../assets/images/webp/PeopleLooking.webp'
+import CatLovers from '../assets/images/webp/CatLovers.webp'
+import Faimly from '../assets/images/webp/Faimly.webp'
+import CollegeStudents from '../assets/images/webp/CollegeStudents.webp'
+import Ellips from '../assets/images/webp/Mission_ellips.webp'
 
 export const Everyone = () => {
     return (

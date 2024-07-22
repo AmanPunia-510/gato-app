@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import DownArrow from '../assets/images/png/DownArrow.png'
-import UpArrow from '../assets/images/png/upArrow.png'
+import DownArrow from '../assets/images/webp/DownArrow.webp'
+import UpArrow from '../assets/images/webp/upArrow.webp'
 
 function AccordionItem({ title, content, isOpen, toggleAccordion }) {
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import Accordion from './Accordian'
-import Vision_Img from '../assets/images/png/Vision.png'
+import Vision_Img from '../assets/images/webp/Vision.webp'
 
 const Vision = () => {
     return (

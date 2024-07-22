@@ -1,7 +1,7 @@
 import React from 'react'
-import Email from '../assets/images/png/Email.png'
-import Ellips from '../assets/images/png/Our_mission_right.png'
-import HandEllips from '../assets/images/png/Footer-ellips.png'
+import Email from '../assets/images/webp/Email.webp'
+import Ellips from '../assets/images/webp/Our_mission_right.webp'
+import HandEllips from '../assets/images/webp/Footer-ellips.webp'
 
 const Verification = () => {
     return (

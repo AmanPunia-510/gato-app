@@ -1,13 +1,13 @@
 import React from 'react'
-import Cat_foot from '../assets/images/png/Cat_foot.png'
-import Cafe_Gato1 from '../assets/images/png/cafe_gato1.png'
-import Cafe_Gato2 from '../assets/images/png/cafe_gato2.png'
-import Cafe_Gato3 from '../assets/images/png/cafe_gato3.png'
-import Cafe_Gato4 from '../assets/images/png/cafe_gato4.png'
-import Cafe_Gato5 from '../assets/images/png/cafe_gato5.png'
-import Cafe_Gato6 from '../assets/images/png/cafe_gato6.png'
-import Cafe_Gato_img from '../assets/images/png/cafe_gato.png'
-import ellips from '../assets/images/png/Cafe_gato_ellips.png'
+import Cat_foot from '../assets/images/webp/Cat_foot.webp'
+import Cafe_Gato1 from '../assets/images/webp/cafe_gato1.webp'
+import Cafe_Gato2 from '../assets/images/webp/cafe_gato2.webp'
+import Cafe_Gato3 from '../assets/images/webp/cafe_gato3.webp'
+import Cafe_Gato4 from '../assets/images/webp/cafe_gato4.webp'
+import Cafe_Gato5 from '../assets/images/webp/cafe_gato5.webp'
+import Cafe_Gato6 from '../assets/images/webp/cafe_gato6.webp'
+import Cafe_Gato_img from '../assets/images/webp/cafe_gato.webp'
+import ellips from '../assets/images/webp/Cafe_gato_ellips.webp'
 
 const CafeGato = () => {
     return (

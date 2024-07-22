@@ -1,8 +1,8 @@
 import React from 'react'
-import Hero_bg from '../assets/images/png/Hero_right_bg.png';
-import Cafe_Gato from '../assets/images/png/Cafe_Gato_logo.png';
-import Cat_Thankyou from '../assets/images/png/Cat_Thankyou.png';
-import Hero_Responsive from '../assets/images/png/Hero_Responsive.png'
+import Hero_bg from '../assets/images/webp/Hero_right_bg.webp';
+import Cafe_Gato from '../assets/images/webp/Cafe_Gato_logo.webp';
+import Cat_Thankyou from '../assets/images/webp/Cat_Thankyou.webp';
+import Hero_Responsive from '../assets/images/webp/Hero_Responsive.webp'
 import Hero_right_Respon from '../assets/images/webp/hero-right-desktop.webp'
 
 const Header = () => {
