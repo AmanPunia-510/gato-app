@@ -9,7 +9,7 @@ export const Everyone = () => {
     return (
         <>
             <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[167px] xl:pt-[275px] relative'>
-                <div className="container xxl:max-w-[1440px]">
+                <div className="container">
                     <h2 className='font-norwester font-normal text-6xl sm:text-12xl leading-130 text-primary pb-4 lg:pb-16 text-center max-w-[617px] mx-auto'>Who is <span className='text-secondry'>Cafe Gato</span> For? Well….everyone and anyone!</h2>
                     <div className='flex flex-wrap flex-row mx-auto w-full'>
                         <div className='w-full md:w-1/2 xl:w-1/4 px-2 pl-0'>

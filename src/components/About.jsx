@@ -5,7 +5,7 @@ const About = () => {
     return (
         <>
             <section className='pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px]'>
-                <div className="container xxl:max-w-[1440px]">
+                <div className="container">
                     <div className='flex flex-row flex-wrap mx-auto w-full items-center max-lg:gap-7'>
                         <div className="w-full lg:w-1/2 pr-3">
                             <h2 className='font-norwester font-normal max-lg:text-center text-6xl lg:text-12xl leading-130 text-primary pb-2 sm:pb-4 lg:pb-5'>ABOUT US</h2>

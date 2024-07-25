@@ -18,7 +18,7 @@ export default function SimpleSlider() {
     const NextArrow = (props) => {
         const { onClick } = props;
         return (
-            <div className='next absolute right-[-100px] cursor-pointer top-[50%] translate-y-[-50%] md:block hidden !z-10 w-[50px]' onClick={onClick}>
+            <div className='next absolute right-[-100px] cursor-pointer top-[50%] translate-y-[-50%] md:block hidden !z-10 w-[50px] max-xl:!hidden' onClick={onClick}>
                 <img src={Next_Arrow} alt="PrevArrow" />
             </div>
         );
@@ -27,7 +27,7 @@ export default function SimpleSlider() {
     const PrevArrow = (props) => {
         const { onClick } = props;
         return (
-            <div className='prev absolute cursor-pointer left-[-100px] top-[50%] translate-y-[-50%] md:block hidden !z-10 w-[50px]' onClick={onClick}>
+            <div className='prev absolute cursor-pointer left-[-100px] top-[50%] translate-y-[-50%] md:block hidden !z-10 w-[50px] max-xl:!hidden' onClick={onClick}>
                 <img src={Prev_Arrow} alt="PrevArrow" />
             </div>
         );
@@ -41,11 +41,19 @@ export default function SimpleSlider() {
         slidesToScroll: 1,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
-
+        responsive: [
+            {
+                breakpoint: 1200, 
+                settings: {
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                }
+            }
+        ]
     };
     return (
         <section className="pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px] relative">
-            <div className="container relative xxl:max-w-[1440px]">
+            <div className="container relative">
                 <h2 className='font-norwester font-normal text-6xl sm:text-12xl leading-130 text-primary text-center pb-4 lg:pb-16'>Addressing Common Concerns</h2>
                 <div className="max-w-[919px] w-full mx-auto">
                     <Slider {...settings} className="h-fit">

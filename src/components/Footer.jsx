@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <>
             <footer className='mt-20 sm:mt-24 md:mt-[126px] lg:mt-[150px] xl:mt-[227px] bg-primary'>
-                <div className="container pt-12 xxl:max-w-[1440px]">
+                <div className="container pt-12">
                     <a href="#">
                         <img src={logo} className='mx-auto max-w-[155px]' alt="logo" />
                     </a>
