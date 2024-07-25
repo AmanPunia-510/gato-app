@@ -4,7 +4,7 @@ import About_Bg from '../assets/images/webp/About_bg-min.webp'
 const About = () => {
     return (
         <>
-            <section className='pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px] max-w-[1531px] mx-auto'>
+            <section className='pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px]'>
                 <div className="container xxl:max-w-[1440px]">
                     <div className='flex flex-row flex-wrap mx-auto w-full items-center max-lg:gap-7'>
                         <div className="w-full lg:w-1/2 pr-3">

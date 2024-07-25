@@ -8,7 +8,7 @@ import Mission_ellips from '../assets/images/webp/Mission_ellips-min.webp'
 const OurMission = () => {
     return (
         <>
-            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[223px] max-w-[1531px] mx-auto relative'>
+            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[223px] relative'>
                 <div className='max-w-[1115px] xxl:max-w-[1440px] w-full mx-auto px-6 relative z-20'>
                     <div className='flex flex-wrap flex-row mx-auto w-full lg:items-end items-center max-lg:gap-14 max-lg:flex-col-reverse max-sm:gap-7'>
                         <div className="w-full lg:w-5/12 px-[9px] max-lg:flex max-lg:justify-center">

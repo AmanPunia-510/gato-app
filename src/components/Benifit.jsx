@@ -7,7 +7,7 @@ import Ellips from '../assets/images/webp/MissionRightEllips-min.webp'
 const Benifit = () => {
     return (
         <>
-            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[190px] max-w-[1531px] mx-auto relative'>
+            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[190px] relative'>
                 <div className='max-w-[1103px] mx-auto px-6 relative z-10 xxl:max-w-[1440px]'>
                     <h2 className='font-norwester font-normal text-6xl sm:text-12xl leading-130 text-primary text-center pb-4 lg:pb-20'>BENEFITS</h2>
                     <div className="flex flex-wrap flex-row mx-auto w-full items-center max-xl:gap-7">

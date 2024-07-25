@@ -6,7 +6,7 @@ import Cat_Cafe_ellips from '../assets/images/webp/Cat_Cafe_ellips-min.webp'
 const CatCafe = () => {
     return (
         <>
-            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px] w-full max-w-[1531px] mx-auto relative'>
+            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px] w-full relative'>
                 <div className="container xxl:max-w-[1440px]">
                     <h2 className='font-norwester font-normal text-6xl sm:text-12xl leading-130 text-primary text-center pb-4 lg:pb-14'>What is a <span className='text-secondry'> Cat Cafe?</span></h2>
 

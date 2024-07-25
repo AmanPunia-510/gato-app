@@ -8,7 +8,7 @@ import Ellips from '../assets/images/webp/Mission_ellips-min.webp'
 export const Everyone = () => {
     return (
         <>
-            <section className='pt-20 sm:pt-24 md:pt-[126px] max-w-[1531px] mx-auto lg:pt-[167px] xl:pt-[275px] relative'>
+            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[167px] xl:pt-[275px] relative'>
                 <div className="container xxl:max-w-[1440px]">
                     <h2 className='font-norwester font-normal text-6xl sm:text-12xl leading-130 text-primary pb-4 lg:pb-16 text-center max-w-[617px] mx-auto'>Who is <span className='text-secondry'>Cafe Gato</span> For? Well….everyone and anyone!</h2>
                     <div className='flex flex-wrap flex-row mx-auto w-full'>

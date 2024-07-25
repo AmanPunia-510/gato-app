@@ -4,7 +4,7 @@ import Execpt from '../assets/images/webp/Exepct-min.webp'
 const Expect = () => {
     return (
         <>
-            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px] max-w-[1531px] mx-auto'>
+            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px]'>
                 <div className="container xxl:max-w-[1440px]">
                     <div className="flex flex-wrap flex-row mx-auto w-full max-xl:gap-9">
                         <div className="w-full xl:w-1/2 xl:pr-3 max-xl:flex max-xl:justify-center">
