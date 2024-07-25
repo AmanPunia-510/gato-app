@@ -1,7 +1,7 @@
 import React from 'react'
-import Cat_Cafe from '../assets/images/webp/cat_cafe.webp'
-import Cat_foot from '../assets/images/webp/Cat_foot.webp'
-import Cat_Cafe_ellips from '../assets/images/webp/Cat_Cafe_ellips.webp'
+import Cat_Cafe from '../assets/images/webp/cat_cafe-min.webp'
+import Cat_foot from '../assets/images/webp/Cat_foot-min.webp'
+import Cat_Cafe_ellips from '../assets/images/webp/Cat_Cafe_ellips-min.webp'
 
 const CatCafe = () => {
     return (

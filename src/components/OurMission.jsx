@@ -1,9 +1,9 @@
 import React from 'react'
-import Mission_Img from '../assets/images/webp/Mission.webp'
-import Mission_cat from '../assets/images/webp/Mission_cat.webp'
-import Mission_Bg from '../assets/images/webp/Our_mission_right.webp'
-import Mission_Md from '../assets/images/webp/misson-md.webp'
-import Mission_ellips from '../assets/images/webp/Mission_ellips.webp'
+import Mission_Img from '../assets/images/webp/Mission-min.webp'
+import Mission_cat from '../assets/images/webp/Mission_cat-min.webp'
+import Mission_Bg from '../assets/images/webp/Our_mission_right-min.webp'
+import Mission_Md from '../assets/images/webp/misson-md-min.webp'
+import Mission_ellips from '../assets/images/webp/Mission_ellips-min.webp'
 
 const OurMission = () => {
     return (

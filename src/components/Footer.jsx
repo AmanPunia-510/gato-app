@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../assets/images/webp/Cafe_Gato_logo.webp'
-import insta from '../assets/images/webp/Instagram.webp'
-import face from '../assets/images/webp/facebook.webp'
-import pinter from '../assets/images/webp/pinterest.webp'
-import youtube from '../assets/images/webp/youtube.webp'
-import whatshapp from '../assets/images/webp/whatshapp.webp'
-import inbox from '../assets/images/webp/inbox.webp'
-import call from '../assets/images/webp/call.webp'
+import logo from '../assets/images/webp/Cafe_Gato_logo-min.webp'
+import insta from '../assets/images/webp/Instagram-min.webp'
+import face from '../assets/images/webp/facebook-min.webp'
+import pinter from '../assets/images/webp/pinterest-min.webp'
+import youtube from '../assets/images/webp/youtube-min.webp'
+import whatshapp from '../assets/images/webp/whatshapp-min.webp'
+import inbox from '../assets/images/webp/inbox-min.webp'
+import call from '../assets/images/webp/call-min.webp'
 
 const Footer = () => {
     return (

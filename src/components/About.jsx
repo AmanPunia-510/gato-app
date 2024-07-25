@@ -1,5 +1,5 @@
 import React from 'react'
-import About_Bg from '../assets/images/webp/About_bg.webp'
+import About_Bg from '../assets/images/webp/About_bg-min.webp'
 
 const About = () => {
     return (

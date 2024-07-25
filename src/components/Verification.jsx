@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Email from '../assets/images/webp/Email.webp'
-import Ellips from '../assets/images/webp/Our_mission_right.webp'
-import HandEllips from '../assets/images/webp/Footer-ellips.webp'
+import Email from '../assets/images/webp/Email-min.webp'
+import Ellips from '../assets/images/webp/Our_mission_right-min.webp'
+import HandEllips from '../assets/images/webp/Footer-ellips-min.webp'
 
 const Verification = () => {
     const [formValue, setFormValue] = useState({

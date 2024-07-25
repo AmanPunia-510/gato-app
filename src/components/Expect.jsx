@@ -1,5 +1,5 @@
 import React from 'react'
-import Execpt from '../assets/images/webp/Exepct.webp'
+import Execpt from '../assets/images/webp/Exepct-min.webp'
 
 const Expect = () => {
     return (

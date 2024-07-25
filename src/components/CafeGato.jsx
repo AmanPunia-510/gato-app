@@ -1,13 +1,13 @@
 import React from 'react'
-import Cat_foot from '../assets/images/webp/Cat_foot.webp'
-import Cafe_Gato1 from '../assets/images/webp/cafe_gato1.webp'
-import Cafe_Gato2 from '../assets/images/webp/cafe_gato2.webp'
-import Cafe_Gato3 from '../assets/images/webp/cafe_gato3.webp'
-import Cafe_Gato4 from '../assets/images/webp/cafe_gato4.webp'
-import Cafe_Gato5 from '../assets/images/webp/cafe_gato5.webp'
-import Cafe_Gato6 from '../assets/images/webp/cafe_gato6.webp'
-import Cafe_Gato_img from '../assets/images/webp/cafe_gato.webp'
-import ellips from '../assets/images/webp/Cafe_gato_ellips.webp'
+import Cat_foot from '../assets/images/webp/Cat_foot-min.webp'
+import Cafe_Gato1 from '../assets/images/webp/cafe_gato1-min.webp'
+import Cafe_Gato2 from '../assets/images/webp/cafe_gato2-min.webp'
+import Cafe_Gato3 from '../assets/images/webp/cafe_gato3-min.webp'
+import Cafe_Gato4 from '../assets/images/webp/cafe_gato4-min.webp'
+import Cafe_Gato5 from '../assets/images/webp/cafe_gato5-min.webp'
+import Cafe_Gato6 from '../assets/images/webp/cafe_gato6-min.webp'
+import Cafe_Gato_img from '../assets/images/webp/cafe_gato-min.webp'
+import ellips from '../assets/images/webp/Cafe_gato_ellips-min.webp'
 
 const CafeGato = () => {
     return (
