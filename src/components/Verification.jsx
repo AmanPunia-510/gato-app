@@ -20,7 +20,7 @@ const Verification = () => {
     }
     console.log(error, "error")
     return (
-        <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px] relative max-w-[1531px] mx-auto'>
+        <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px] relative'>
             <div className="container relative z-10 xxl:max-w-[1440px]">
                 <h2 className='font-norwester font-normal text-6xl sm:text-12xl leading-130 text-primary text-center pb-4 lg:pb-20'>Stay Connected</h2>
                 <div className="flex flex-wrap flex-row mx-auto w-full items-center max-lg:gap-7">

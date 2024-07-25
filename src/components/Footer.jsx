@@ -11,7 +11,7 @@ import call from '../assets/images/webp/call-min.webp'
 const Footer = () => {
     return (
         <>
-            <section className='mt-20 sm:mt-24 md:mt-[126px] lg:mt-[150px] xl:mt-[227px] bg-primary max-w-[1531px] mx-auto'>
+            <footer className='mt-20 sm:mt-24 md:mt-[126px] lg:mt-[150px] xl:mt-[227px] bg-primary'>
                 <div className="container pt-12 xxl:max-w-[1440px]">
                     <a href="#">
                         <img src={logo} className='mx-auto max-w-[155px]' alt="logo" />
@@ -50,7 +50,7 @@ const Footer = () => {
                 <div className="container">
                     <div className='font-inter font-normal text-md leading-140 text-[#CED7DC] text-center pt-4 pb-2'>©2024 CafeGato | All Rights reserved</div>
                 </div>
-            </section>
+            </footer>
         </>
     )
 }
