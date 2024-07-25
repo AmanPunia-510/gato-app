@@ -84,7 +84,7 @@ export default function SimpleSlider() {
                     <p className="font-inter font-normal text-center mx-auto max-w-[934px] leading-160 text-primary text-md pt-8">We are committed to providing a high-quality experience at Cafe Gato. Our focus on cleanliness, safety, and the well-being of our guests and cats will ensure everyone can enjoy their time at our cafe without any worries. We aim to build confidence and trust in our mission and operations by addressing these concerns head-on.</p>
                 </div>
 
-                <div className="pt-12 p-8 border-[4px] border-solid border-primary shadow-cate_cafe rounded-xl bg-center bg-cover bg-no-repeat mt-20 sm:mt-24 md:mt-[126px] lg:mt-[125px]" style={ThankyouBg}>
+                <div className="pt-12 p-8 border-[4px] border-solid border-primary shadow-cate_cafe rounded-xl bg-center bg-cover bg-no-repeat mt-20 sm:mt-24 md:mt-[126px] lg:mt-[125px]        cursor-pointer" style={ThankyouBg}>
                     <h2 className="font-norwester font-normal text-4xl sm:text-7xl lg:text-12xl leading-130 text-center text-white max-w-[771px] mx-auto">Thank you again for your support. Together, we are building something truly special for our community😺</h2>
                     <div className="max-w-[159px] mx-auto pt-6">
                         <h2 className="font-normal font-norwester text-xl leading-130 text-white text-center">Warmest regards,</h2>

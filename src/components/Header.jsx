@@ -13,7 +13,7 @@ const Header = () => {
                 <img src={Hero_bg} className='absolute right-0 -top-3 custom_xl:max-w-[740px] min-h-[980px] max-custom_xl:hidden' alt="Hero_bg" />
                 <img src={Hero_Responsive} className='absolute right-0 -top-3 hidden max-custom_xl:inline-block max-md:hidden' alt="Hero_Responsive" />
                 <div className='container relative z-10 xxl:max-w-[1440px]'>
-                    <img src={Cafe_Gato} className='max-w-[155px] pt-6 max-md:mx-auto' alt="Cafe_Gato_logo" />
+                    <img src={Cafe_Gato} className='max-w-[155px] pt-6 max-md:mx-auto cursor-pointer' alt="Cafe_Gato_logo" />
                     <div className='mt-8 sm:mt-16'>
                         <h2 className=' font-NewShelter font-norwester font-normal max-sm:text-center text-6xl sm:text-14xl md:text-18xl lg:text-25xl leading-120 custom_xl:max-w-[640px] max-custom_xl:text-center text-primary'>Join us in building Providence's  <span className='text-secondry'>first ever Cat Cafe!</span></h2>
                         <p className='mt-5 font-inter text-md sm:text-xl font-normal leading-120 text-primary max-custom_xl:text-center custom_xl:max-w-[544px] max-sm:text-center'>Hi there! We are thrilled to introduce ourselves as Cafe Gato, in the process of opening the first cat cafe in Providence, Rhode Island! Your support and enthusiasm will be instrumental in making this dream a reality, and we couldn't be more grateful to have you along for the ride.</p>

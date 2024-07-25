@@ -42,7 +42,7 @@ const Verification = () => {
                             </div>
                             {error && "Email is required"}
 
-                            <button type='submit' onClick={(e) => handleSubmit(e)} className='w-full h-[78px] md:h-[90px] rounded-[72px] mt-5 md:mt-9 border-none outline-none font-inter text-xl leading-130 font-semibold text-white bg-secondry'>Submit</button>
+                            <button type='submit' onClick={(e) => handleSubmit(e)} className='w-full h-[78px] md:h-[90px] rounded-[72px] mt-5 md:mt-9 border-none outline-none font-inter text-xl leading-130 font-semibold text-white bg-secondry hover:border-[2px] hover:border-secondry hover:border-solid hover:bg-transparent hover:text-secondry transition-all'>Submit</button>
                         </form>
                     </div>
                     <div className="w-full lg:w-7/12 flex justify-center lg:justify-end">
