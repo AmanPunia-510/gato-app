@@ -19,7 +19,7 @@ export default function SimpleSlider() {
         const { onClick } = props;
         return (
             <div className='next absolute right-[-100px] cursor-pointer top-[50%] translate-y-[-50%] md:block hidden !z-10 w-[50px] max-xl:!hidden' onClick={onClick}>
-                <img src={Next_Arrow} className="hover:shadow-md" alt="PrevArrow" />
+                <img src={Next_Arrow} className="hover:scale-95 transition-all active:scale-90" alt="PrevArrow" />
             </div>
         );
     };
@@ -28,7 +28,7 @@ export default function SimpleSlider() {
         const { onClick } = props;
         return (
             <div className='prev absolute cursor-pointer left-[-100px] top-[50%] translate-y-[-50%] md:block hidden !z-10 w-[50px] max-xl:!hidden' onClick={onClick}>
-                <img src={Prev_Arrow} className="hover:shadow-md" alt="PrevArrow" />
+                <img src={Prev_Arrow} className="hover:scale-95 transition-all active:scale-90" alt="PrevArrow" />
             </div>
         );
     };
