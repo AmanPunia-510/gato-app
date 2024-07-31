@@ -43,10 +43,10 @@ export default function SimpleSlider() {
         prevArrow: <PrevArrow />,
         responsive: [
             {
-                breakpoint: 1200, 
+                breakpoint: 1200,
                 settings: {
                     autoplay: true,
-                    autoplaySpeed: 3000,
+                    autoplaySpeed: 2000,
                 }
             }
         ]
