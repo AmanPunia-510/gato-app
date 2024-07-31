@@ -5,8 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Cleaness from '../assets/images/webp/Cleaness-min.webp'
 import Cross from '../assets/images/webp/Cross-min.webp'
 import Safety from '../assets/images/webp/Safety-min.webp'
-import Prev_Arrow from '../assets/images/webp/prev_arrow-min.webp'
-import Next_Arrow from '../assets/images/webp/next_arrow-min.webp'
+import Prev_Arrow from '../assets/images/png/PrevArrow.png'
+import Next_Arrow from '../assets/images/png/NextArrow.png'
 import Thankyou from '../assets/images/webp/ThankyouBg-min.webp'
 
 export default function SimpleSlider() {
@@ -19,7 +19,7 @@ export default function SimpleSlider() {
         const { onClick } = props;
         return (
             <div className='next absolute right-[-100px] cursor-pointer top-[50%] translate-y-[-50%] md:block hidden !z-10 w-[50px] max-xl:!hidden' onClick={onClick}>
-                <img src={Next_Arrow} alt="PrevArrow" />
+                <img src={Next_Arrow} className="hover:shadow-md" alt="PrevArrow" />
             </div>
         );
     };
@@ -28,7 +28,7 @@ export default function SimpleSlider() {
         const { onClick } = props;
         return (
             <div className='prev absolute cursor-pointer left-[-100px] top-[50%] translate-y-[-50%] md:block hidden !z-10 w-[50px] max-xl:!hidden' onClick={onClick}>
-                <img src={Prev_Arrow} alt="PrevArrow" />
+                <img src={Prev_Arrow} className="hover:shadow-md" alt="PrevArrow" />
             </div>
         );
     };
