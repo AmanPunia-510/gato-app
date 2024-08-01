@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import DownArrow from '../assets/images/webp/DownArrow-min.webp'
-import UpArrow from '../assets/images/webp/upArrow-min.webp'
+import DownArrow from '../assets/images/webp/DownArrow.webp'
+import UpArrow from '../assets/images/webp/upArrow.webp'
 
 function AccordionItem({ title, content, isOpen, toggleAccordion }) {
     return (
@@ -9,7 +9,7 @@ function AccordionItem({ title, content, isOpen, toggleAccordion }) {
                 className={`sm:px-3 sm:pr-7 pb-5 pt-8 cursor-pointer flex justify-between items-center text-gray`}
                 onClick={toggleAccordion}
             >
-                <p className='font-norwester font-normal text-xl sm:text-4xl md:text-6xl text-primary leading-130'>{title}</p>
+                <p className='font-normal text-xl sm:text-4xl md:text-6xl text-primary leading-130'>{title}</p>
                 {isOpen ? (
                     <img src={UpArrow} alt="Up Arrow" className="w-4 h-[9px]" />
                 ) : (
@@ -26,7 +26,7 @@ function AccordionItem({ title, content, isOpen, toggleAccordion }) {
     );
 }
 
-function Accordion() {
+function ACCORDION() {
     const [accordionItems, setAccordionItems] = useState([
         {
             title: 'A Cafe with Character',
@@ -71,4 +71,4 @@ function Accordion() {
     );
 }
 
-export default Accordion;
+export default ACCORDION;

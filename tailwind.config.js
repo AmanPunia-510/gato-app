@@ -29,7 +29,7 @@ module.exports = {
       },
       colors: {
         primary: "#09384E",
-        secondry: "#F87B54",
+        secondary: "#F87B54",
       },
       fontFamily: {
         norwester: ["Norwester", "sans-serif"],

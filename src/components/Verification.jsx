@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Email from '../assets/images/webp/Email-min.webp'
-import Ellips from '../assets/images/webp/Our_mission_right-min.webp'
-import HandEllips from '../assets/images/webp/Footer-ellips-min.webp'
+import EmailImg from '../assets/images/webp/EmailImg.webp'
+import EllipseImg from '../assets/images/webp/MissionRightEllipse.webp'
+import HandEllipse from '../assets/images/webp/HandEllipse.webp'
 
 const Verification = () => {
     const [formValue, setFormValue] = useState({
@@ -20,9 +20,9 @@ const Verification = () => {
     }
     console.log(error, "error")
     return (
-        <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px] relative'>
+        <div className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px] relative'>
             <div className="container relative z-10">
-                <h2 className='font-norwester font-normal text-6xl sm:text-12xl leading-130 text-primary text-center pb-4 lg:pb-20'>Stay Connected</h2>
+                <h2 className='font-normal text-6xl sm:text-12xl leading-130 text-primary text-center pb-4 lg:pb-20'>Stay Connected</h2>
                 <div className="flex flex-wrap flex-row mx-auto w-full items-center max-lg:gap-7">
                     <div className="w-full lg:w-5/12 max-lg:flex max-lg:justify-center">
                         <form action="" className='max-w-[471px] w-full'>
@@ -42,17 +42,17 @@ const Verification = () => {
                             </div>
                             {error && "Email is required"}
 
-                            <button type='submit' onClick={(e) => handleSubmit(e)} className='w-full h-[78px] md:h-[90px] rounded-[72px] mt-5 md:mt-9 border-none outline-none font-inter text-xl leading-130 font-semibold text-white bg-secondry hover:border-[2px] hover:border-secondry hover:border-solid hover:bg-transparent hover:text-secondry transition-all'>Submit</button>
+                            <button type='submit' onClick={(e) => handleSubmit(e)} className='w-full h-[78px] md:h-[90px] rounded-[72px] mt-5 md:mt-9 border-none outline-none font-inter text-xl leading-130 font-semibold text-white bg-secondary hover:border-[2px] hover:border-secondary hover:border-solid hover:bg-transparent hover:text-secondary transition-all'>Submit</button>
                         </form>
                     </div>
                     <div className="w-full lg:w-7/12 flex justify-center lg:justify-end">
-                        <img src={Email} className='max-w-[500px] w-full' alt="Email" />
+                        <img src={EmailImg} className='max-w-[500px] w-full' alt="EmailImg" />
                     </div>
                 </div>
             </div>
-            <img src={Ellips} className='absolute right-0 top-[371px] -z-0 max-w-[703px] max-lg:hidden' alt="Ellips" />
-            <img src={HandEllips} className='absolute left-0 bottom-[-174px] -z-0 max-lg:hidden' alt="Ellips" />
-        </section>
+            <img src={EllipseImg} className='absolute right-0 top-[371px] -z-0 max-w-[703px] max-lg:hidden' alt="Ellipse" />
+            <img src={HandEllipse} className='absolute left-0 bottom-[-174px] -z-0 max-lg:hidden' alt="HandEllipse" />
+        </div>
     )
 }
 

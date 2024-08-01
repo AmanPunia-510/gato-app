@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Benifit from "./components/Benifit";
+import Benefit from "./components/Benefit";
 import CafeGato from "./components/CafeGato";
 import CatCafe from "./components/CatCafe";
 import { Everyone } from "./components/Everyone";
@@ -22,7 +22,7 @@ function App() {
         <About />
         <Vision />
         <Everyone />
-        <Benifit />
+        <Benefit />
         <Expect />
         <Slider />
         <Verification />

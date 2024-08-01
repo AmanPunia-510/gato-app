@@ -1,48 +1,41 @@
 import React from 'react'
-import logo from '../assets/images/webp/Cafe_Gato_logo-min.webp'
-import insta from '../assets/images/webp/Instagram-min.webp'
-import face from '../assets/images/webp/facebook-min.webp'
-import pinter from '../assets/images/webp/pinterest-min.webp'
-import youtube from '../assets/images/webp/youtube-min.webp'
-import whatshapp from '../assets/images/webp/whatshapp-min.webp'
-import inbox from '../assets/images/webp/inbox-min.webp'
-import call from '../assets/images/webp/call-min.webp'
+import CageLogo from '../assets/images/webp/CafeLogo.webp'
+import InstagramImg from '../assets/images/webp/InstagramImg.webp'
+import FacebookImg from '../assets/images/webp/FacebookImg.webp'
+import PinterImg from '../assets/images/webp/PinterImg.webp'
+import YoutubeImg from '../assets/images/webp/YoutubeImg.webp'
+import WhatsappImg from '../assets/images/webp/WhatsappImg.webp'
+import InboxImg from '../assets/images/webp/InboxImg.webp'
+import CallImg from '../assets/images/webp/CallImg.webp'
 
 const Footer = () => {
     return (
-        <>
-            <footer className='mt-20 sm:mt-24 md:mt-[126px] lg:mt-[150px] xl:mt-[227px] bg-primary'>
+            <div className='mt-20 sm:mt-24 md:mt-[126px] lg:mt-[150px] xl:mt-[227px] bg-primary'>
                 <div className="container pt-12">
                     <a href="#">
-                        <img src={logo} className='mx-auto max-w-[155px]' alt="logo" />
+                        <img src={CageLogo} className='mx-auto max-w-[155px]' alt="CageLogo" />
                     </a>
                     <div className='max-w-[493px] mx-auto flex items-center gap-4 sm:gap-9 justify-center pt-11 flex-wrap'>
                         <a href="https://www.instagram.com/">
-                            <img src={insta} className='w-[38px] h-[38px] hover:shadow-secondry hover:shadow-link rounded-[50%] transition-all' alt="instagram" />
+                            <img src={InstagramImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="InstagramImg" />
                         </a>
-
                         <a href="https://www.facebook.com/">
-                            <img src={face} className='w-[38px] h-[38px] hover:shadow-secondry hover:shadow-link rounded-[50%] transition-all' alt="face" />
+                            <img src={FacebookImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="FacebookImg" />
                         </a>
-
                         <a href="https://www.pinterest.com/">
-                            <img src={pinter} className='w-[38px] h-[38px] hover:shadow-secondry hover:shadow-link rounded-[50%] transition-all' alt="pinter" />
+                            <img src={PinterImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="PinterImg" />
                         </a>
-
                         <a href="https://www.youtube.com/">
-                            <img src={youtube} className='w-[38px] h-[38px] hover:shadow-secondry hover:shadow-link rounded-[50%] transition-all' alt="youtube" />
+                            <img src={YoutubeImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="YoutubeImg" />
                         </a>
-
                         <a href="https://www.whatsapp.com/">
-                            <img src={whatshapp} className='w-[38px] h-[38px] hover:shadow-secondry hover:shadow-link rounded-[50%] transition-all' alt="whatshapp" />
+                            <img src={WhatsappImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="WhatsappImg" />
                         </a>
-
                         <a href="mailto:someone@example.com">
-                            <img src={inbox} className='w-[38px] h-[38px] hover:shadow-secondry hover:shadow-link rounded-[50%] transition-all' alt="inbox" />
+                            <img src={InboxImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="InboxImg" />
                         </a>
-
                         <a href="tel:+18475555555">
-                            <img src={call} className='w-[38px] h-[38px] hover:shadow-secondry hover:shadow-link rounded-[50%] transition-all' alt="call" />
+                            <img src={CallImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="CallImg" />
                         </a>
                     </div>
                 </div>
@@ -50,8 +43,7 @@ const Footer = () => {
                 <div className="container">
                     <div className='font-inter font-normal text-md leading-140 text-[#CED7DC] text-center pt-4 pb-2'>©2024 CafeGato | All Rights reserved</div>
                 </div>
-            </footer>
-        </>
+            </div>
     )
 }
 

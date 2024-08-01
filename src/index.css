@@ -13,3 +13,6 @@
 @tailwind components;
 @tailwind utilities;
 
+html,body{
+  font-family: "Norwester";
+}
