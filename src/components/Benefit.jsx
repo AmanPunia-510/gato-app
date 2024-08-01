@@ -1,6 +1,6 @@
 import BenefitBg from '../assets/images/webp/BenefitBg.webp'
 import BenefitBgOne from '../assets/images/webp/BenefitBgOne.webp'
-import RightBg from '../assets/images/webp/MissionRightEllipse.webp'
+import RightBg from '../assets/images/webp/MissionBg.webp'
 import Ellipse from '../assets/images/webp/MissionRightEllipse.webp'
 const Benefit = () => {
     return (

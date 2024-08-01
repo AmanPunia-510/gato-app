@@ -15,25 +15,25 @@ const Footer = () => {
                     </a>
                     <div className='max-w-[493px] mx-auto flex items-center gap-4 sm:gap-9 justify-center pt-11 flex-wrap'>
                         <a href="https://www.instagram.com/">
-                            <img src={InstagramImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="InstagramImg" />
+                            <img src={InstagramImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-links_shadow rounded-[50%] transition-all' alt="InstagramImg" />
                         </a>
                         <a href="https://www.facebook.com/">
-                            <img src={FacebookImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="FacebookImg" />
+                            <img src={FacebookImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-links_shadow rounded-[50%] transition-all' alt="FacebookImg" />
                         </a>
                         <a href="https://www.pinterest.com/">
-                            <img src={PinterImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="PinterImg" />
+                            <img src={PinterImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-links_shadow rounded-[50%] transition-all' alt="PinterImg" />
                         </a>
                         <a href="https://www.youtube.com/">
-                            <img src={YoutubeImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="YoutubeImg" />
+                            <img src={YoutubeImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-links_shadow rounded-[50%] transition-all' alt="YoutubeImg" />
                         </a>
                         <a href="https://www.whatsapp.com/">
-                            <img src={WhatsappImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="WhatsappImg" />
+                            <img src={WhatsappImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-links_shadow rounded-[50%] transition-all' alt="WhatsappImg" />
                         </a>
                         <a href="mailto:someone@example.com">
-                            <img src={InboxImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="InboxImg" />
+                            <img src={InboxImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-links_shadow rounded-[50%] transition-all' alt="InboxImg" />
                         </a>
                         <a href="tel:+18475555555">
-                            <img src={CallImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-link rounded-[50%] transition-all' alt="CallImg" />
+                            <img src={CallImg} className='w-[38px] h-[38px] hover:shadow-secondary hover:shadow-links_shadow rounded-[50%] transition-all' alt="CallImg" />
                         </a>
                     </div>
                 </div>
