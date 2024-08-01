@@ -1,9 +1,7 @@
-import React from 'react'
 import BenefitBg from '../assets/images/webp/BenefitBg.webp'
 import BenefitBgOne from '../assets/images/webp/BenefitBgOne.webp'
 import RightBg from '../assets/images/webp/MissionRightEllipse.webp'
 import Ellipse from '../assets/images/webp/MissionRightEllipse.webp'
-
 const Benefit = () => {
     return (
             <div className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[190px] relative'>
@@ -33,5 +31,4 @@ const Benefit = () => {
             </div>
     )
 }
-
 export default Benefit

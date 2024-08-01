@@ -1,7 +1,5 @@
-import React from 'react'
 import Accordion from './Accordion'
 import VisionImg from '../assets/images/webp/VisionImg.webp'
-
 const Vision = () => {
     return (
             <div className='pt-20 sm:pt-24 md:pt-[135px] lg:pt-[167px] xl:pt-[257px] relative'>
@@ -22,5 +20,4 @@ const Vision = () => {
             </div>
     )
 }
-
 export default Vision

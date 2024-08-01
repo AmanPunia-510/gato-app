@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import DownArrow from '../assets/images/webp/DownArrow.webp'
 import UpArrow from '../assets/images/webp/upArrow.webp'
-
 function AccordionItem({ title, content, isOpen, toggleAccordion }) {
     return (
         <div className={`max-w-[653px] border-b-[2px] border-primary border-solid`}>
@@ -25,7 +24,6 @@ function AccordionItem({ title, content, isOpen, toggleAccordion }) {
         </div>
     );
 }
-
 function ACCORDION() {
     const [accordionItems, setAccordionItems] = useState([
         {
@@ -49,13 +47,11 @@ function ACCORDION() {
             isOpen: false,
         },
     ]);
-
     const toggleAccordionItem = (index) => {
         const updatedAccordionItems = [...accordionItems];
         updatedAccordionItems[index].isOpen = !updatedAccordionItems[index].isOpen;
         setAccordionItems(updatedAccordionItems);
     };
-
     return (
         <>
             {accordionItems.map((item, index) => (
@@ -70,5 +66,4 @@ function ACCORDION() {
         </>
     );
 }
-
 export default ACCORDION;

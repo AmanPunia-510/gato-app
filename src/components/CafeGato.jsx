@@ -1,4 +1,3 @@
-import React from 'react'
 import CatFoot from '../assets/images/webp/CatFoot.webp'
 import CafeImgOne from '../assets/images/webp/CafeImgOne.webp'
 import CafeImgTwo from '../assets/images/webp/CafeImgTwo.webp'
@@ -8,7 +7,6 @@ import CafeImgFive from '../assets/images/webp/CafeImgFive.webp'
 import CafeImgSix from '../assets/images/webp/CafeImgSix.webp'
 import CafeImgSimple from '../assets/images/webp/CafeImgSimple.webp'
 import Ellipse from '../assets/images/webp/CafeEllipse.webp'
-
 const CafeGato = () => {
     return (
             <div className='pt-20 sm:pt-24 md:pt-[135px] lg:pt-[167px] xl:pt-[257px] relative'>
@@ -48,5 +46,4 @@ const CafeGato = () => {
             </div>
     )
 }
-
 export default CafeGato

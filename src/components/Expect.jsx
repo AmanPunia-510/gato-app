@@ -1,6 +1,4 @@
-import React from 'react'
 import ExceptImg from '../assets/images/webp/ExceptImg.webp'
-
 const Expect = () => {
     return (
             <div className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px]'>
@@ -39,5 +37,4 @@ const Expect = () => {
             </div>
     )
 }
-
 export default Expect

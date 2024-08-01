@@ -1,12 +1,9 @@
-import React from 'react'
 import HeroBg from '../assets/images/webp/HeroBg.webp';
 import CafeLogo from '../assets/images/webp/CafeLogo.webp';
 import ThankyouImg from '../assets/images/webp/ThankyouImg.webp';
 import HeroResponsive from '../assets/images/webp/HeroResponsive.png'
 import HeroRightImg from '../assets/images/webp/HeroRightImg.webp'
-
 const Header = () => {
-
     return (
         <div className='w-full relative overflow-hidden max-w-[1531px] mx-auto bg-[#FCFBE3]'>
             <img src={HeroBg} className='absolute right-0 -top-3 custom_xl:max-w-[740px] min-h-[980px] max-custom_xl:hidden' alt="Hero_bg" />
@@ -23,5 +20,4 @@ const Header = () => {
         </div>
     )
 }
-
 export default Header

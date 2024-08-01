@@ -1,6 +1,4 @@
-import React from 'react'
 import AboutBg from '../assets/images/webp/AboutBg.webp'
-
 const About = () => {
     return (
         <div className='pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px]'>
@@ -18,5 +16,4 @@ const About = () => {
         </div>
     )
 }
-
 export default About

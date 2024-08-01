@@ -1,4 +1,3 @@
-import React from 'react'
 import CageLogo from '../assets/images/webp/CafeLogo.webp'
 import InstagramImg from '../assets/images/webp/InstagramImg.webp'
 import FacebookImg from '../assets/images/webp/FacebookImg.webp'
@@ -7,7 +6,6 @@ import YoutubeImg from '../assets/images/webp/YoutubeImg.webp'
 import WhatsappImg from '../assets/images/webp/WhatsappImg.webp'
 import InboxImg from '../assets/images/webp/InboxImg.webp'
 import CallImg from '../assets/images/webp/CallImg.webp'
-
 const Footer = () => {
     return (
             <div className='mt-20 sm:mt-24 md:mt-[126px] lg:mt-[150px] xl:mt-[227px] bg-primary'>
@@ -46,5 +44,4 @@ const Footer = () => {
             </div>
     )
 }
-
 export default Footer

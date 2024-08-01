@@ -1,14 +1,11 @@
-import React from 'react'
 import MissionImg from '../assets/images/webp/MissionImg.webp'
 import MissionCat from '../assets/images/webp/MissionCat.webp'
 import MissionBg from '../assets/images/webp/MissionBg.webp'
 import MissionMd from '../assets/images/webp/MissionMd.webp'
 import MissionEllipse from '../assets/images/webp/MissionEllipse.webp'
-
 const OurMission = () => {
     return (
-        <>
-            <section className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[223px] relative'>
+            <div className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[223px] relative'>
                 <div className='max-w-[1115px] w-full mx-auto px-6 relative z-20'>
                     <div className='flex flex-wrap flex-row mx-auto w-full lg:items-end items-center max-lg:gap-14 max-lg:flex-col-reverse max-sm:gap-7'>
                         <div className="w-full lg:w-5/12 px-[9px] max-lg:flex max-lg:justify-center">
@@ -24,9 +21,7 @@ const OurMission = () => {
                 </div>
                 <img src={MissionBg} className='absolute right-0 top-[221px] z-0 max-w-[930px] h-[575px] w-full' alt="Mission_Bg" />
                 <img src={MissionEllipse} className=' absolute left-0 bottom-12 max-lg:hidden' alt="MissionEllipse" />
-            </section>
-        </>
+            </div>
     )
 }
-
 export default OurMission

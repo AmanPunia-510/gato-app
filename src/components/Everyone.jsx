@@ -1,10 +1,8 @@
-import React from 'react'
 import PeopleLooking from '../assets/images/webp/PeopleLooking.webp'
 import CatLovers from '../assets/images/webp/CatLovers.webp'
 import Family from '../assets/images/webp/Family.webp'
 import CollegeStudents from '../assets/images/webp/CollegeStudents.webp'
 import Ellipse from '../assets/images/webp/MissionEllipse.webp'
-
 export const Everyone = () => {
     return (
             <div className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[167px] xl:pt-[275px] relative'>

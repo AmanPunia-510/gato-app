@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -8,7 +7,6 @@ import SafetyImg from '../assets/images/webp/SafetyImg.webp'
 import PrevArrowImg from '../assets/images/png/PrevArrow.png'
 import NextArrowImg from '../assets/images/png/NextArrow.png'
 import ThankyouImg from '../assets/images/webp/ThankyouBgImg.webp'
-
 export default function SimpleSlider() {
     const ThankyouBg = {
         backgroundImage: `url(${ThankyouImg})`

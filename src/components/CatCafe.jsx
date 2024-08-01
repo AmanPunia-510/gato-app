@@ -1,8 +1,6 @@
-import React from 'react'
 import CatCafeImg from '../assets/images/webp/CatCafeImg.webp'
 import CatFootImg from '../assets/images/webp/CatFoot.webp'
 import CatCafeEllipse from '../assets/images/webp/CatCafeEllipse.webp'
-
 const CatCafe = () => {
     return (
             <div className='pt-20 sm:pt-24 md:pt-[126px] lg:pt-[150px] xl:pt-[227px] w-full relative'>
@@ -24,5 +22,4 @@ const CatCafe = () => {
             </div>
     )
 }
-
 export default CatCafe

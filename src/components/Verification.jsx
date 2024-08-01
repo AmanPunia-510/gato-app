@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import EmailImg from '../assets/images/webp/EmailImg.webp'
 import EllipseImg from '../assets/images/webp/MissionRightEllipse.webp'
 import HandEllipse from '../assets/images/webp/HandEllipse.webp'
-
 const Verification = () => {
     const [formValue, setFormValue] = useState({
         name: "",
@@ -55,5 +54,4 @@ const Verification = () => {
         </div>
     )
 }
-
 export default Verification
