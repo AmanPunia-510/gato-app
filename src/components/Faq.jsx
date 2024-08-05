@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import DownArrow from '../assets/images/webp/DownArrow.webp'
-import UpArrow from '../assets/images/webp/upArrow.webp'
+import downArrowImg from '../assets/images/webp/down-arrow.webp'
+import upArrowImg from '../assets/images/webp/up-arrow.webp'
 function AccordionItem({ title, content, isOpen, toggleAccordion }) {
     return (
         <div className={`max-w-[653px] border-b-[2px] border-primary border-solid`}>
@@ -10,14 +10,14 @@ function AccordionItem({ title, content, isOpen, toggleAccordion }) {
             >
                 <p className='font-normal text-xl sm:text-4xl md:text-6xl text-primary leading-130'>{title}</p>
                 {isOpen ? (
-                    <img src={UpArrow} alt="Up Arrow" className="w-4 h-[9px]" />
+                    <img src={upArrowImg} alt="Up Arrow" className="w-4 h-[9px]" />
                 ) : (
-                    <img src={DownArrow} alt="Down Arrow" className="w-4 h-[9px]" />
+                    <img src={downArrowImg} alt="Down Arrow" className="w-4 h-[9px]" />
                 )}
             </div>
             {isOpen && (
                 <div
-                    className={`${isOpen ? "pt-0" : "pb-0"} sm:px-3 sm:pr-7  pb-4 font-inter font-normal text-md leading-160 text-primary`}
+                    className={`${isOpen ? "pt-0" : "pb-0"} sm:px-3 sm:pr-7  pb-4 font-inter font-normal text-base leading-160 text-primary`}
                     dangerouslySetInnerHTML={{ __html: content }}
                 />
             )}
@@ -47,7 +47,7 @@ function ACCORDION() {
             isOpen: false,
         },
     ]);
-    const toggleAccordionItem = (index) => {
+    const TOGGLE_ACCORDION_ITEM = (index) => {
         const updatedAccordionItems = [...accordionItems];
         updatedAccordionItems[index].isOpen = !updatedAccordionItems[index].isOpen;
         setAccordionItems(updatedAccordionItems);
@@ -60,7 +60,7 @@ function ACCORDION() {
                     title={item.title}
                     content={item.content}
                     isOpen={item.isOpen}
-                    toggleAccordion={() => toggleAccordionItem(index)}
+                    toggleAccordion={() => TOGGLE_ACCORDION_ITEM(index)}
                 />
             ))}
         </>

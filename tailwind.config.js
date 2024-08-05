@@ -40,10 +40,6 @@ module.exports = {
         links_shadow: "0px 0px 12px",
       },
       fontSize: {
-        sm: "14px",
-        md: "16px",
-        lg: "18px",
-        xl: "20px",
         "2xl": "22px",
         "3xl": "24px",
         "4xl": "28px",

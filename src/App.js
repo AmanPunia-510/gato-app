@@ -7,7 +7,7 @@ import Expect from "./components/Expect";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import OurMission from "./components/OurMission";
-import Slider from "./components/Slider";
+import Slider from "./components/SliderConcern";
 import Vision from '../src/components/Vision'
 import Verification from "./components/Verification";
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="bg-[#FCFBE3] max-w-[1531px] mx-auto">
+      <main className="bg-[#FCFBE3] max-w-[1531px] mx-auto overflow-hidden">
         <CafeGato />
         <OurMission />
         <CatCafe />
