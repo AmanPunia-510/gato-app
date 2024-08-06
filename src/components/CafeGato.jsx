@@ -43,7 +43,7 @@ const CafeGato = () => {
                         </div>
                     </div>
                 </div>
-            <img src={ellipseImg} className='max-w-[180px] absolute top-[25px] left-0 -z-0 max-lg:hidden' alt="Ellipse" />
+            <img src={ellipseImg} className='max-w-[180px] absolute top-[25px] left-0 -z-0 max-lg:hidden pointer-events-none' alt="Ellipse" />
             </div>
     )
 }

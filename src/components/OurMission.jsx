@@ -20,8 +20,8 @@ const OurMission = () => {
                     </div>
                 </div>
             </div>
-            <img src={missionBgImg} className='absolute right-0 top-[221px] z-0 max-w-[930px] h-[575px] w-full' alt="Mission_Bg" />
-            <img src={missionEllipseImg} className=' absolute left-0 bottom-12 max-lg:hidden' alt="MissionEllipse" />
+            <img src={missionBgImg} className='absolute right-0 top-[221px] z-0 max-w-[930px] h-[575px] w-full pointer-events-none' alt="Mission_Bg" />
+            <img src={missionEllipseImg} className=' absolute left-0 bottom-12 max-lg:hidden pointer-events-none' alt="MissionEllipse" />
         </div>
     )
 }

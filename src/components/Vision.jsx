@@ -20,8 +20,8 @@ const Vision = () => {
                     </div>
                 </div>
             </div>
-            <img src={catFoot} className='absolute top-[65%] left-20 z-0 w-[26px] max-lg:hidden' alt="catfoot" />
-            <img src={visionEllipse} className='absolute top-[38%] -left-2 rotate-180 max-lg:hidden' alt="visionEllipse" />
+            <img src={catFoot} className='absolute top-[65%] left-20 z-0 w-[26px] max-lg:hidden pointer-events-none' alt="catfoot" />
+            <img src={visionEllipse} className='absolute top-[38%] -left-2 rotate-180 max-lg:hidden pointer-events-none' alt="visionEllipse" />
         </div>
     )
 }

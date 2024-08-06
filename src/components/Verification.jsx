@@ -52,9 +52,9 @@ const Verification = () => {
                     </div>
                 </div>
             </div>
-            <img src={handEllipse} className='absolute left-0 bottom-[-174px] -z-0 max-lg:hidden' alt="HandEllipse" />
-            <img src={verificationEllipse} className='absolute right-0 top-[41%] z-0 max-xl:hidden' alt="verificationEllipse" />
-            <img src={handEllipseRight} className='absolute top-[15%] right-[-7px] max-lg:hidden' alt="handEllipse" />
+            <img src={handEllipse} className='absolute left-0 bottom-[-174px] -z-0 max-lg:hidden pointer-events-none' alt="HandEllipse" />
+            <img src={verificationEllipse} className='absolute right-0 top-[41%] z-0 max-xl:hidden pointer-events-none' alt="verificationEllipse" />
+            <img src={handEllipseRight} className='absolute top-[15%] right-[-7px] max-lg:hidden pointer-events-none' alt="handEllipse" />
         </div>
     )
 }

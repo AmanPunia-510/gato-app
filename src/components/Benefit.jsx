@@ -27,8 +27,8 @@ const Benefit = () => {
                     </div>
                 </div>
             </div>
-            <img src={rightBgImg} className='absolute right-0 max-lg:hidden lg:top-[332px] max-w-[954px] w-full -z-0' alt="RightBg" />
-            <img src={ellipseImg} className='absolute -z-0 top-0 right-0 max-lg:hidden lg:top-[200px]' alt="Ellipse" />
+            <img src={rightBgImg} className='absolute right-0 max-lg:hidden lg:top-[332px] max-w-[954px] w-full -z-0 pointer-events-none' alt="RightBg" />
+            <img src={ellipseImg} className='absolute -z-0 top-0 right-0 max-lg:hidden lg:top-[200px] pointer-events-none' alt="Ellipse" />
         </div>
     )
 }
