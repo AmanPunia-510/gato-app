@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="max-w-[1920px] mx-auto overflow-hidden">
+      <main className="bg-[#FCFBE3] max-w-[1920px] mx-auto overflow-hidden">
         <CafeGato />
         <OurMission />
         <CatCafe />
