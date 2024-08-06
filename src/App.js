@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import OurMission from "./components/OurMission";
 import Slider from "./components/SliderConcern";
-import Vision from '../src/components/Vision'
+import Vision from "../src/components/Vision";
 import Verification from "./components/Verification";
 
 function App() {

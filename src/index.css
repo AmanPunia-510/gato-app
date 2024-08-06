@@ -18,3 +18,12 @@ html,
 body {
   font-family: "Norwester";
 }
+
+
+.slick-dots li button:before{
+  font-size: 10px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #F87B54 !important;
+}
