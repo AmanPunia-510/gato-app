@@ -6,7 +6,7 @@ import heroRightImg from '../assets/images/webp/hero-right-img.webp'
 
 const Header = () => {
     return (
-        <div className='w-full relative overflow-hidden max-w-[1920px] mx-auto bg-[#FCFBE3]'>
+        <div className='w-full relative overflow-hidden max-w-[1920px] mx-auto '>
             <img src={heroBgImg} className='absolute right-0 -top-3 custom_xl:max-w-[740px] min-h-[980px] max-custom_xl:hidden' alt="Hero_bg" />
             <img src={heroResponsive} className='absolute right-0 -top-3 hidden max-custom_xl:inline-block max-md:hidden max-w-[538px] h-[396px]' alt="HeroResponsive" />
             <div className='container relative z-10'>
