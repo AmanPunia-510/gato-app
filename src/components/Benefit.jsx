@@ -10,7 +10,7 @@ const Benefit = () => {
                 <h2 className='font-normal text-6xl sm:text-12xl leading-130 text-primary text-center pb-4 lg:pb-20'>BENEFITS</h2>
                 <div className="flex flex-wrap flex-row mx-auto w-full items-center max-xl:gap-7">
                     <div className="w-full xl:w-5/12 xl:pr-3 max-xl:flex max-xl:justify-center">
-                        <img src={benefitBgImg} className='max-w-[375px] w-full' alt="BenefitBg" />
+                        <img src={benefitBgImg} className='max-w-[375px] max-sm:max-w-[280px] w-full' alt="BenefitBg" />
                     </div>
                     <div className="w-full xl:w-7/12 xl:pl-3">
                         <h2 className='font-normal leading-130 text-6xl text-primary max-xl:text-center'>FOR THE CATS</h2>
@@ -23,7 +23,7 @@ const Benefit = () => {
                         <p className='font-inter font-normal text-primary text-base leading-160 pt-2 xl:pt-5 xl:max-w-[590px] max-xl:text-center max-xl:max-w-[713px] max-xl:mx-auto'>Spending time with cats has been shown to reduce stress and anxiety, improve mood, and offer a unique and enjoyable experience. Whether you're a student, a working professional, or a family, our café offers a little slice of happiness and relaxation for all!</p>
                     </div>
                     <div className="w-full xl:w-5/12 xl:pl-3 flex max-xl:justify-center xl:justify-end">
-                        <img src={benefitBgOneImg} className='max-w-[375px] w-full' alt="BenefitBgOne" />
+                        <img src={benefitBgOneImg} className='max-w-[375px] w-full max-sm:max-w-[280px]' alt="BenefitBgOne" />
                     </div>
                 </div>
             </div>

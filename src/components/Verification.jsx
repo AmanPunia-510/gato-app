@@ -44,11 +44,11 @@ const Verification = () => {
                             <p className='text-red-700'>
                                 {error && "Email is required"}</p>
 
-                            <button type='submit' onClick={(e) => handleSubmit(e)} className='w-full h-[78px] md:h-[90px] rounded-[72px] mt-5 border-none outline-none font-inter text-xl leading-130 font-semibold text-white bg-secondary hover:border-[2px] hover:border-secondary hover:border-solid hover:bg-transparent hover:text-secondary transition-all'>Submit</button>
+                            <button type='submit' onClick={(e) => handleSubmit(e)} className='w-full h-[78px] md:h-[90px] rounded-[72px] mt-[53px] border-none outline-none font-inter text-xl leading-130 font-semibold text-white bg-secondary hover:border-[2px] hover:border-secondary hover:border-solid hover:bg-transparent hover:text-secondary transition-all max-sm:mt-6'>Submit</button>
                         </form>
                     </div>
                     <div className="w-full lg:w-7/12 flex justify-center lg:justify-end">
-                        <img src={emailImg} className='max-w-[500px] w-full' alt="EmailImg" />
+                        <img src={emailImg} className='max-w-[500px] w-full max-sm:max-w-[320px]' alt="EmailImg" />
                     </div>
                 </div>
             </div>

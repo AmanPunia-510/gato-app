@@ -38,6 +38,7 @@ module.exports = {
       boxShadow: {
         cate_cafe: "0px 22px 0px 0px #09384E",
         links_shadow: "0px 0px 12px",
+        everyone_box: "0px 11.3px 0px 0px #09384E",
       },
       fontSize: {
         "2xl": "22px",

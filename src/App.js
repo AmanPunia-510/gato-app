@@ -2,7 +2,7 @@ import About from "./components/About";
 import Benefit from "./components/Benefit";
 import CafeGato from "./components/CafeGato";
 import CatCafe from "./components/CatCafe";
-import { Everyone } from "./components/Everyone";
+import Everyone from "./components/Everyone";
 import Expect from "./components/Expect";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="bg-[#FCFBE3] max-w-[1531px] mx-auto overflow-hidden">
+      <main className="bg-[#FCFBE3] max-w-[1920px] mx-auto overflow-hidden">
         <CafeGato />
         <OurMission />
         <CatCafe />

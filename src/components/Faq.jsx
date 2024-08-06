@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import downArrowImg from '../assets/images/webp/down-arrow.webp'
 import upArrowImg from '../assets/images/webp/up-arrow.webp'
+
 function AccordionItem({ title, content, isOpen, toggleAccordion }) {
     return (
         <div className={`max-w-[653px] border-b-[2px] border-primary border-solid`}>
@@ -17,7 +18,7 @@ function AccordionItem({ title, content, isOpen, toggleAccordion }) {
             </div>
             {isOpen && (
                 <div
-                    className={`${isOpen ? "pt-0" : "pb-0"} sm:px-3 sm:pr-7  pb-4 font-inter font-normal text-base leading-160 text-primary`}
+                    className={`${isOpen ? "pt-0" : "pb-0"} sm:px-3 sm:pr-7  pb-10 font-inter font-normal text-base leading-160 text-primary`}
                     dangerouslySetInnerHTML={{ __html: content }}
                 />
             )}

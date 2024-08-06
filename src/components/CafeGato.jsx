@@ -23,27 +23,27 @@ const CafeGato = () => {
                         </div>
                     </div>
                     <div className='flex flex-row flex-wrap xxl:justify-between w-full mx-auto'>
-                        <div className="w-full sm:w-4/6 lg:w-5/12 px-[6.5px]">
+                        <div className="w-4/6 lg:w-5/12 px-[3px] sm:px-[6.5px]">
                         <img src={cafeImgOneImg} className='h-full w-full' alt="CafeImgOne" />
                         </div>
-                        <div className="w-full sm:w-4/12 lg:w-3/12 px-[6.5px] max-sm:pt-[13px]">
+                        <div className="w-4/12 lg:w-3/12 px-[3px] sm:px-[6.5px]">
                         <img src={cafeImgTwoImg} className='h-full w-full' alt="CafeImgTwo" />
                         </div>
-                        <div className="w-full sm:w-1/2 lg:w-4/12 px-[6.5px] max-lg:pt-[13px]">
+                        <div className="w-1/2 lg:w-4/12 px-[3px] sm:px-[6.5px] max-sm:pt-[6px] max-lg:pt-[13px]">
                         <img src={cafeImgThreeImg} className='h-full w-full' alt="CafeImgThree" />
                         </div>
-                        <div className="w-full sm:w-1/2 lg:w-4/12 px-[6.5px] mt-[13px]">
+                        <div className="w-1/2 lg:w-4/12 px-[3px] sm:px-[6.5px] mt-[6px] sm:mt-[13px]">
                         <img src={cafeImgFourImg} className='h-full w-full' alt="CafeImgFour" />
                         </div>
-                        <div className="w-full sm:w-4/6 lg:w-5/12 px-[6.5px] mt-[13px]">
+                        <div className="w-4/6 lg:w-5/12 px-[3px] sm:px-[6.5px] mt-[6px] sm:mt-[13px]">
                         <img src={cafeImgFiveImg} className='h-full w-full' alt="CafeImgFive" />
                         </div>
-                        <div className="w-full sm:w-4/12 lg:w-3/12 px-[6.5px] mt-[13px]">
+                        <div className="w-4/12 lg:w-3/12 px-[3px] sm:px-[6.5px] mt-[6px] sm:mt-[13px]">
                         <img src={cafeImgSixImg} className='h-full w-full' alt="CafeImgSix" />
                         </div>
                     </div>
                 </div>
-            <img src={ellipseImg} className='max-w-[192px] absolute top-[44px] left-0 -z-0 max-lg:hidden' alt="Ellipse" />
+            <img src={ellipseImg} className='max-w-[180px] absolute top-[25px] left-0 -z-0 max-lg:hidden' alt="Ellipse" />
             </div>
     )
 }

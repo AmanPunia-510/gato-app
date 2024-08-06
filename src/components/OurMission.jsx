@@ -11,7 +11,7 @@ const OurMission = () => {
                 <div className='flex flex-wrap flex-row mx-auto w-full lg:items-end items-center max-lg:gap-14 max-lg:flex-col-reverse max-sm:gap-7'>
                     <div className="w-full lg:w-5/12 px-[9px] max-lg:flex max-lg:justify-center">
                         <img src={missionImg} className='w-full max-lg:hidden' alt="MissionImg" />
-                        <img src={missionMdImg} className='w-full lg:hidden max-w-[580px]' alt="Mission_Img" />
+                        <img src={missionMdImg} className='w-full lg:hidden max-w-[580px] max-lg:max-w-[515px] max-sm:max-w-[320px]' alt="Mission_Img" />
                     </div>
                     <div className="w-full lg:w-7/12 px-[9px]">
                         <h2 className='font-normal text-6xl sm:text-12xl leading-130 text-primary pb-2 lg:pb-5 max-lg:text-center'>OUR MISSION</h2>
